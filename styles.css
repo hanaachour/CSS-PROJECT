@@ -1,0 +1,120 @@
+.navbar p{
+color: green;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin-left:5%;
+    border-radius: 50px red 2px;
+    background-color: rgb(196, 185, 138);
+    padding-top: 1% ;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+.navbar{
+    margin-left: 35%;
+    margin-bottom: 5%;
+    margin-bottom: 1%;
+}
+.navbar p a:visited{
+    color: green;
+    font-weight: bold;
+    font-size: large;
+}
+body{
+    color: grey;
+    font-weight: bold;
+    font-family: roboto;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnXXXFjSM7YH7s28KLMxuWFmDDXwDC_0j01FRCfTGS5unYoL5UMFtFTRD_8wJstebv_HY&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1:hover{
+    color: orangered;
+  
+}
+.animation{
+    width: auto;
+    height: auto;
+    position: relative;
+    animation: mymove 5s 10;
+    animation-direction: alternate-reverse;
+margin-bottom: 100px;
+
+}
+@keyframes mymove {
+    0%   {color: red; left: 0px; top: 0px;}
+    25%  {color: yellow; left:50px; top: 0px;}
+    50%  {color: blue; left: 50px; top: 50px;}
+    75%  {color: green; left: 0px; top: 50px;}
+    100% {color: red; left: 0px; top: 0px;}
+  }
+h2{
+   color: orangered;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+background-color: rgb(198, 231, 123);
+
+}
+.about{
+    text-align: center;
+    font-style:oblique;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 200px;
+    border: 2px solid yellow;
+height: ;
+width:40%;
+/*padding*/
+padding-left: 40px;
+padding-top: 10px;
+padding-right: 30px ;
+padding-bottom: 10px;
+background-color: bisque;
+/* margin */
+margin-bottom:20px ;
+margin-left: 30%;
+
+}
+.about>p{
+    color: rgb(1, 24, 1);
+
+}
+.about dd:hover{
+color:brown
+}
+.about dt{
+    color: rgb(14, 25, 14);
+}
+#Contact{
+    display: block;
+    text-align: center;
+    font-style:oblique;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 200px;
+    border: 2px solid yellow;
+height: 70% ;
+width:40%;
+/*padding*/
+padding-left: ;
+padding-top: ;
+padding-right:  ;
+padding-bottom: 10px ;
+background-color: bisque;
+/* margin */
+margin-bottom:20px ;
+margin-left: 30%; 
+}
+
+
+div label{
+    color: black;
+}
+form div{
+    display: block;
+}
+footer:hover{
+    color: orangered;
+}
